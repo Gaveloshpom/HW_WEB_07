@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw-web-07"
+version = "0.1.0"
+description = ""
+authors = ["Gaveloshpom <gaveloshpom@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_web_07"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.6"
+alembic = "^1.10.2"
+faker = "^17.6.0"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
